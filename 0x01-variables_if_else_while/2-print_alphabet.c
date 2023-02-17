@@ -1,0 +1,22 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+
+/* Main - Prints the alphabet 
+ * Retun: Always (Success)
+ *
+ */
+
+int main(void)
+{
+	char c;
+	
+	for (c = 'a'; c <= 'z';c++)
+	putchar(c);
+	putchar('\n');
+	return (0);
+}
